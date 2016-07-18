@@ -1,6 +1,6 @@
 os = require 'os'
 
-mouse = 3
+mouse = 1
 
 module.exports =
 
@@ -29,9 +29,9 @@ module.exports =
         e.preventDefault()
         return false
 
-      if (e.which is mouse)
+      if (e.which is mouse) and e.altKey
         resetState()
-        if e.ctrlKey
+        if e.metaKey or e.ctrlKey
           previousRanges = editor.getSelectedBufferRanges()
         else
           previousRanges = null
@@ -42,7 +42,7 @@ module.exports =
 
     onMouseMove = (e) =>
       if mouseStart
-        if (e.which is mouse)
+        if (e.which is mouse) and e.altKey
           mouseEnd = _screenPositionForMouseEvent(e)
           selectBoxAroundCursors()
           e.preventDefault()
@@ -51,7 +51,7 @@ module.exports =
           resetState()
 
     onMouseUp = (e) =>
-      if (e.which is mouse)
+      if (e.which is mouse) and e.altKey
          if mouseStart == mouseEnd
             e.preventDefault()
             e.stopPropagation()
