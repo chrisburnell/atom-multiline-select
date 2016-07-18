@@ -1,14 +1,13 @@
 {
-  "name": "atom-multiline-select",
+  "name": "Multiline Select",
   "main": "./lib/atom-multiline-select",
   "version": "1.7.0",
-  "description": "Modification of virtualthoughts’s Atom Plugin, 'slickedit-select', changing a number of basic ting ting tings.",
+  "description": "Modification of virtualthoughts’s Atom Plugin, 'slickedit-select', changing right-click to left-click and ALT.",
   "repository": {
     "type": "git",
-    "url": "https://github.com/chrisburnell/atom-multiline-select"
+    "url": "https://github.com/chrisburnell/atom-multiline-select.git"
   },
   "license": "MIT",
-  "dependencies": {},
   "bugs": {
     "url": "https://github.com/chrisburnell/atom-multiline-select/issues"
   },
