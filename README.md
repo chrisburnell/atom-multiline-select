@@ -1,6 +1,6 @@
 # Atom Multiline Select
 
-## Forked and Modified from [virtualthoughts’s plugin, "slickedit-select"](https://github.com/virtualthoughts/slickedit-select)
+## Forked and Modified from [virtualthoughts](https://github.com/virtualthoughts)’s plugin, *[slickedit-select](https://github.com/virtualthoughts/slickedit-select)*.
 
 
 Now uses the Left mouse button in combination with the ALT key, à la TextMate or Sublime Text.
