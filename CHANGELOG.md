@@ -1,5 +1,5 @@
 ## 1.7.0
-* Modified to work with the ALT and CMD keys by Chris Burnell.
+* Modified by Chris Burnell to work with the Left Click + ALT and CMD/CTRL keys for multiple multiline selections.
 
 ## 1.6.0
 * The ability to make multiple column selections by holding down the control key. Thanks to purdeaandrei for the pull request.
