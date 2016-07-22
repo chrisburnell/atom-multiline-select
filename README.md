@@ -1,12 +1,8 @@
-# Multiline Select
+# Atom Multiline Select
+
+## Forked and Modified from [virtualthoughts](https://github.com/virtualthoughts)’s plugin, *[slickedit-select](https://github.com/virtualthoughts/slickedit-select)*.
 
 
-Use the Left Mouse Button + Alt key to select text across multiple lines.
+Now uses the Left mouse button in combination with the ALT key, à la TextMate or Sublime Text.
 
-Additionally hold Command/Control to combine multiple multiline selections.
-
-
---------
-
-
-*Forked and Modified* from *[virtualthoughts’s](https://github.com/virtualthoughts)* plugin, *[slickedit-select](https://github.com/virtualthoughts/slickedit-select)*.
+Also added the CMD (meta) key to the ability to combine multiline selections (in addition to the existing CTRL key).
