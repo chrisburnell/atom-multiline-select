@@ -1,6 +1,6 @@
 {
   "name": "multiline-select",
-  "version": "1.8.1",
+  "version": "1.8.2",
   "description": "Support multiline-selection like Sublime Text.",
   "main": "./lib/multiline-select",
   "engine": {
