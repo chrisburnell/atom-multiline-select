@@ -1,4 +1,4 @@
-## 1.7.0
+## 1.8.2
 * Modified by Chris Burnell to work with the Left Click + ALT and CMD/CTRL keys for multiple multiline selections.
 
 ## 1.6.0
