@@ -1,7 +1,8 @@
 {
-  "name": "AtomMultilineSelect",
-  "version": "0.1.1",
-  "description": "Support multiline selection. Fork of virtualthoughts’s Atom Plugin, `slickedit-select`.",
+  "name": "Multiline-Select",
+  "version": "1.6.0",
+  "description": "Support multiline-selection like Sublime Text.",
+  "main": "./lib/multiline-select",
   "engine": {
     "atom": "*"
   },
