@@ -1,18 +1,37 @@
 {
-  "name": "multiline-select",
-  "version": "1.7.0",
-  "description": "Support multiline-selection like Sublime Text.",
-  "main": "./lib/multiline-select",
+  "name": "AtomMultilineSelect",
+  "version": "0.1.1",
+  "description": "Support multiline selection. Fork of virtualthoughts’s Atom Plugin, `slickedit-select`.",
   "engine": {
     "atom": "*"
   },
   "dependencies": {},
   "repository": {
     "type": "git",
-    "url": "https://github.com/chrisburnell/multiline-select.git"
+    "url": "git+https://github.com/chrisburnell/atom-multiline-select.git"
   },
   "bugs": {
-    "url": "https://github.com/chrisburnell/multiline-select/issues"
+    "url": "https://github.com/chrisburnell/atom-multiline-select/issues"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "readme": "# Atom Multiline Select\n\n## Forked and Modified from [virtualthoughts](https://github.com/virtualthoughts)’s plugin, *[slickedit-select](https://github.com/virtualthoughts/slickedit-select)*.\n\n\nNow uses the Left mouse button in combination with the ALT key, à la TextMate or Sublime Text.\n\nAlso added the CMD (meta) key to the ability to combine multiline selections (in addition to the existing CTRL key).\n",
+  "readmeFilename": "README.md",
+  "homepage": "https://github.com/chrisburnell/atom-multiline-select#readme",
+  "_id": "AtomMultilineSelect@0.1.1",
+  "_shasum": "4a0975662fbe1fdd11c58f761a1060928e7716d2",
+  "_resolved": "file:../d-116622-29950-wdpzz4/package.tgz",
+  "_from": "../d-116622-29950-wdpzz4/package.tgz",
+  "_atomModuleCache": {
+    "version": 1,
+    "dependencies": [],
+    "extensions": {
+      ".coffee": [
+        "lib/atom-multiline-select.coffee"
+      ],
+      ".json": [
+        "package.json"
+      ]
+    },
+    "folders": []
+  }
 }
